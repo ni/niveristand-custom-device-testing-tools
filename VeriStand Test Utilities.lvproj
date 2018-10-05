@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,8 +13,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
-		<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
+		<Item Name="VeriStandTestCase" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="Unit" Type="Folder">
+					<Item Name="VeriStandTestCaseUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseUnitTests.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
+		</Item>
+		<Item Name="RunVITester" Type="Folder">
+			<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -304,6 +314,7 @@
 				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
