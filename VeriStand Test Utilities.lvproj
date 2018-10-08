@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,8 +13,43 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
-		<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
+		<Item Name="VeriStandTestCase" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="Unit" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="CustomDeviceHooks" Type="Folder">
+							<Item Name="Good" Type="Folder">
+								<Item Name="ActionVIOnCompile_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnCompile_Good.vi"/>
+								<Item Name="ActionVIOnDelete_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDelete_Good.vi"/>
+								<Item Name="ActionVIOnDeleteRequest_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDeleteRequest_Good.vi"/>
+								<Item Name="ActionVIOnDownload_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDownload_Good.vi"/>
+								<Item Name="ActionVIOnLoad_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnLoad_Good.vi"/>
+								<Item Name="ActionVIOnPaste_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnPaste_Good.vi"/>
+								<Item Name="ActionVIOnSave_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnSave_Good.vi"/>
+								<Item Name="ActionVIOnShutdown_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnShutdown_Good.vi"/>
+								<Item Name="AsynchronousCustomDeviceDriverVI_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/AsynchronousCustomDeviceDriverVI_Good.vi"/>
+								<Item Name="InitializationVI_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/InitializationVI_Good.vi"/>
+								<Item Name="InlineCustomDeviceDriverVIHWInterface_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIHWInterface_Good.vi"/>
+								<Item Name="InlineCustomDeviceDriverVIModelInterface_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIModelInterface_Good.vi"/>
+								<Item Name="Page_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/Page_Good.vi"/>
+								<Item Name="RunTimeMenuCustomItem2Launch_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/RunTimeMenuCustomItem2Launch_Good.vi"/>
+								<Item Name="TimingSourceInitializationVI_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/TimingSourceInitializationVI_Good.vi"/>
+							</Item>
+							<Item Name="Bad" Type="Folder">
+								<Item Name="Page_ExpectedTerminalNotFound.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_ExpectedTerminalNotFound.vi"/>
+								<Item Name="Page_IncorrectTerminalType.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_IncorrectTerminalType.vi"/>
+								<Item Name="Page_UnexpectedTerminalFound.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_UnexpectedTerminalFound.vi"/>
+							</Item>
+						</Item>
+					</Item>
+					<Item Name="VeriStandTestCaseUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseUnitTests.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
+		</Item>
+		<Item Name="RunVITester" Type="Folder">
+			<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -304,6 +340,7 @@
 				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -361,6 +398,7 @@
 				<Item Name="Convert EOLs (String Array)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs (String Array)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert EOLs (String)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs (String)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Date Type Format String Mapping__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Date Type Format String Mapping__JKI EasyXML.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
@@ -665,6 +703,35 @@
 				<Item Name="X in Y (Variant)__jki_lib_array -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/X in Y (Variant)__jki_lib_array -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="X in Y__jki_lib_array -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/X in Y__jki_lib_array -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="XML Build Entity__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Build Entity__JKI EasyXML.vi"/>
+				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
 			<Item Name="CoreOperation.lvclass" Type="LVClass" URL="/&lt;nishared&gt;/LabVIEW CLI/Operations/CoreOperation/CoreOperation.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
