@@ -9,26 +9,6 @@
   <Type>Asynchronous</Type>
   <MaxOccurrence>2474</MaxOccurrence>
   <MainPageGUID>bbcf0d7c-a80e-4ca1-824b-14c51244592f</MainPageGUID>
-  <TimingSource>
-    <HasTimingSourceCapability>true</HasTimingSourceCapability>
-    <Paths PathsIsObsolete_UseSourceDistributionInstead="true">
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\PharLap\TimingSourceInitializationVI_Good.vi</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\TimingSourceInitializationVI_Good.vi</RealTimeSystemDestination>
-    </Paths>
-    <SourceDistribution>
-      <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
-        <Location>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\CD Name\PharLap\TimingSourceInitializationVI_Good.vi</Path>
-        </Location>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\TimingSourceInitializationVI_Good.vi</RealTimeSystemDestination>
-      </Source>
-    </SourceDistribution>
-  </TimingSource>
   <InitializationVI>
     <Type>Action</Type>
     <Item2Launch>
@@ -64,64 +44,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\CD Name\CD Name Configuration.llb\Page_Good.vi</Path>
       </Item2Launch>
-      <RunTimeMenu>
-        <MenuItem>
-          <GUID>6211ef21-86c1-487a-8a8a-f9c4353f6209</GUID>
-          <Type>Action</Type>
-          <Name>
-          <eng>Disable</eng>
-          <loc>Disable</loc>
-          </Name>
-          <Item2Launch>
-            <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\CD Name\CD Name Configuration.llb\RunTimeMenuCustomItem2Launch_Good.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-        <MenuItem>
-          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-          <Type>Separator</Type>
-          <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-          </Name>
-          <Item2Launch>
-            <Type>Absolute</Type>
-            <Path>.</Path>
-          </Item2Launch>
-        </MenuItem>
-      </RunTimeMenu>
-      <ActionVIOnDelete>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnDelete_Good.vi</Path>
-      </ActionVIOnDelete>
-      <ActionVIOnLoad>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnLoad_Good.vi</Path>
-      </ActionVIOnLoad>
-      <ActionVIOnSystemShutdown>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnShutdown_Good.vi</Path>
-      </ActionVIOnSystemShutdown>
-      <ActionVIOnSave>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnSave_Good.vi</Path>
-      </ActionVIOnSave>
-      <ActionVIOnDownload>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnDownload_Good.vi</Path>
-      </ActionVIOnDownload>
-      <ActionVIOnPaste>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnPaste_Good.vi</Path>
-      </ActionVIOnPaste>
       <ActionVIOnDeleteRequest>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnDeleteRequest>
-      <ActionVIOnCompile>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnCompile_Good.vi</Path>
-      </ActionVIOnCompile>
     </Page>
   </Pages>
   <CustomXML>
