@@ -14,18 +14,18 @@
     <Paths PathsIsObsolete_UseSourceDistributionInstead="true">
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\PharLap\TimingSourceInitializationVI_Good.vi</Path>
+        <Path>Custom Devices\CD Name\PharLap\Nonexistent.vi</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\TimingSourceInitializationVI_Good.vi</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\Nonexistent.vi</RealTimeSystemDestination>
     </Paths>
     <SourceDistribution>
       <Source>
         <SupportedTarget>PharlapWindows</SupportedTarget>
         <Location>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\CD Name\PharLap\TimingSourceInitializationVI_Good.vi</Path>
+          <Path>Custom Devices\CD Name\PharLap\Nonexistent.vi</Path>
         </Location>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\TimingSourceInitializationVI_Good.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CD Name\Nonexistent.vi</RealTimeSystemDestination>
       </Source>
     </SourceDistribution>
   </TimingSource>

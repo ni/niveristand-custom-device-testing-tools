@@ -112,7 +112,7 @@
       </ActionVIOnDownload>
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnPaste_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnPaste>
       <ActionVIOnDeleteRequest>
         <Type>To Common Doc Dir</Type>

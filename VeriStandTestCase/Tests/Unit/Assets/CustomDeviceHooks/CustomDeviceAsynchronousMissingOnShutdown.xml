@@ -100,7 +100,7 @@
       </ActionVIOnLoad>
       <ActionVIOnSystemShutdown>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnShutdown_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnSystemShutdown>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>

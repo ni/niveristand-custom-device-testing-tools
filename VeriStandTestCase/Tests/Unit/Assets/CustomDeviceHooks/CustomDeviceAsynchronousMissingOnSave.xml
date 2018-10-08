@@ -104,7 +104,7 @@
       </ActionVIOnSystemShutdown>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnSave_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnSave>
       <ActionVIOnDownload>
         <Type>To Common Doc Dir</Type>

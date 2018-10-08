@@ -116,7 +116,7 @@
       </ActionVIOnPaste>
       <ActionVIOnDeleteRequest>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnDeleteRequest_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnDeleteRequest>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>

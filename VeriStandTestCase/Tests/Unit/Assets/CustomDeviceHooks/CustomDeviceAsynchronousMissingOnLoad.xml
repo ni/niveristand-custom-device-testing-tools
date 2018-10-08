@@ -96,7 +96,7 @@
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnLoad_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSystemShutdown>
         <Type>To Common Doc Dir</Type>

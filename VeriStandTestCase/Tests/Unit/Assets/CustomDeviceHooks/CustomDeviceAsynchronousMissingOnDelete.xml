@@ -92,7 +92,7 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\ActionVIOnDelete_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>

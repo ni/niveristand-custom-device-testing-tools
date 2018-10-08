@@ -62,7 +62,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Page_Good.vi</Path>
+        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
