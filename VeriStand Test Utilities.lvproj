@@ -35,6 +35,11 @@
 								<Item Name="RunTimeMenuCustomItem2Launch_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/RunTimeMenuCustomItem2Launch_Good.vi"/>
 								<Item Name="TimingSourceInitializationVI_Good.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Good/TimingSourceInitializationVI_Good.vi"/>
 							</Item>
+							<Item Name="Bad" Type="Folder">
+								<Item Name="Page_ExpectedTerminalNotFound.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_ExpectedTerminalNotFound.vi"/>
+								<Item Name="Page_IncorrectTerminalType.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_IncorrectTerminalType.vi"/>
+								<Item Name="Page_UnexpectedTerminalFound.vi" Type="VI" URL="../VeriStandTestCase/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_UnexpectedTerminalFound.vi"/>
+							</Item>
 						</Item>
 					</Item>
 					<Item Name="VeriStandTestCaseUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseUnitTests.lvclass"/>
