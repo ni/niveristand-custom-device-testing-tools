@@ -62,6 +62,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 	</Item>
+	<Item Name="SetMultipleChannelValues.vi" Type="VI" URL="../SetMultipleChannelValues.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;_!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!&amp;6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]&amp;17RJ98-!#U!+!!6797RV:1!31&amp;!!!A!(!!A(1WRV=X2F=A!C1%!!!@````]!#22"&lt;'FB=S"797RV:3"197FS=S"J&lt;A!!/E"Q!"Y!!"M:6G6S;6.U97ZE6'6T&gt;%.B=W5O&lt;(:D&lt;'&amp;T=Q!56G6S;6.U97ZE6'6T&gt;%.B=W5A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!#A!,!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!AA!!!#3!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1073742352</Property>
+	</Item>
 	<Item Name="WorkspaceManager" Type="Property Definition">
 		<Property Name="NI.ClassItem.Property.LongName" Type="Str">WorkspaceManager</Property>
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">WorkspaceManager</Property>
