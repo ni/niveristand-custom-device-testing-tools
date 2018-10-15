@@ -13,9 +13,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Loopback.lvclass" Type="LVClass" URL="../Loopback/Loopback.lvclass"/>
+		<Item Name="VeriStandTestUtilities" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="VeriStandTestUtilitiesUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestUtilities/Tests/VeriStandTestUtilitiesUnitTests/VeriStandTestUtilitiesUnitTests.lvclass"/>
+			</Item>
+			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
+		</Item>
 		<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
 		<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
-		<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -36,6 +41,7 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
