@@ -12,13 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Loopback.lvclass" Type="LVClass" URL="../Loopback/Loopback.lvclass"/>
 		<Item Name="VeriStandTestUtilities" Type="Folder">
 			<Item Name="Tests" Type="Folder">
 				<Item Name="VeriStandTestUtilitiesUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestUtilities/Tests/VeriStandTestUtilitiesUnitTests/VeriStandTestUtilitiesUnitTests.lvclass"/>
 			</Item>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
+		<Item Name="Loopback.lvclass" Type="LVClass" URL="../Loopback/Loopback.lvclass"/>
 		<Item Name="RunVITester.lvclass" Type="LVClass" URL="../RunVITester/RunVITester.lvclass"/>
 		<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
