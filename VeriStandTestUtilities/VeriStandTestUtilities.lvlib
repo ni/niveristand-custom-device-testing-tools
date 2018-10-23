@@ -19,6 +19,7 @@
 	<Item Name="BuildDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/BuildDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ChassisInformation.ctl" Type="VI" URL="../ChassisInformation.ctl"/>
 	<Item Name="CheckIfBaseTypesMatch.vi" Type="VI" URL="../CheckIfBaseTypesMatch.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -50,10 +51,16 @@
 	<Item Name="OverrideItem.ctl" Type="VI" URL="../OverrideItem.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="QueryDAQHardware.vi" Type="VI" URL="../QueryDAQHardware.vi"/>
+	<Item Name="QueryHardware.vi" Type="VI" URL="../QueryHardware.vi"/>
+	<Item Name="QuerySystemDefinitionFile.vi" Type="VI" URL="../QuerySystemDefinitionFile.vi"/>
+	<Item Name="QueryTarget.vi" Type="VI" URL="../QueryTarget.vi"/>
+	<Item Name="QueryTimingAndSyncHardware.vi" Type="VI" URL="../QueryTimingAndSyncHardware.vi"/>
 	<Item Name="ReadSystemDefinitionOverrideFile.vi" Type="VI" URL="../ReadSystemDefinitionOverrideFile.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="TargetInformation.ctl" Type="VI" URL="../TargetInformation.ctl"/>
 </Library>
