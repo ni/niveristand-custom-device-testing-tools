@@ -51,6 +51,7 @@
 	<Item Name="OverrideItem.ctl" Type="VI" URL="../OverrideItem.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="QueryCustomDevices.vi" Type="VI" URL="../QueryCustomDevices.vi"/>
 	<Item Name="QueryDAQHardware.vi" Type="VI" URL="../QueryDAQHardware.vi"/>
 	<Item Name="QueryHardware.vi" Type="VI" URL="../QueryHardware.vi"/>
 	<Item Name="QuerySystemDefinitionFile.vi" Type="VI" URL="../QuerySystemDefinitionFile.vi"/>
