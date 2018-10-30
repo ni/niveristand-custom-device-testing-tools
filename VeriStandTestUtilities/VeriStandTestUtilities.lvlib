@@ -36,6 +36,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
+	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
 	<Item Name="GetConnectorPaneTemplateForExecutionMode.vi" Type="VI" URL="../GetConnectorPaneTemplateForExecutionMode.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
