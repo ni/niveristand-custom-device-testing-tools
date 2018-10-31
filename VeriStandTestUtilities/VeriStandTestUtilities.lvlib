@@ -75,5 +75,6 @@
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="SystemDefinitionInformation.ctl" Type="VI" URL="../SystemDefinitionInformation.ctl"/>
 	<Item Name="TargetInformation.ctl" Type="VI" URL="../TargetInformation.ctl"/>
 </Library>
