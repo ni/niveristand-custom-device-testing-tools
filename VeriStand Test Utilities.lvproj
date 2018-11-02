@@ -23,7 +23,9 @@
 		</Item>
 		<Item Name="VeriStandTestUtilities" Type="Folder">
 			<Item Name="Tests" Type="Folder">
-				<Item Name="VeriStandTestUtilitiesUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestUtilities/Tests/VeriStandTestUtilitiesUnitTests/VeriStandTestUtilitiesUnitTests.lvclass"/>
+				<Item Name="Unit" Type="Folder">
+					<Item Name="VeriStandTestUtilitiesTests.lvclass" Type="LVClass" URL="../VeriStandTestUtilities/Tests/Unit/VeriStandTestUtilitiesTests.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
