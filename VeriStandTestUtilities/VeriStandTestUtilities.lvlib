@@ -29,6 +29,12 @@
 	<Item Name="CheckVeriStandVersionMatchesLabVIEW.vi" Type="VI" URL="../CheckVeriStandVersionMatchesLabVIEW.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ConfigOverrideItem.ctl" Type="VI" URL="../ConfigOverrideItem.ctl">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="ConfigPropertyItem.ctl" Type="VI" URL="../ConfigPropertyItem.ctl">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="ConnectorPaneTemplate.ctl" Type="VI" URL="../ConnectorPaneTemplate.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -56,9 +62,6 @@
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
-	<Item Name="OverrideItem.ctl" Type="VI" URL="../OverrideItem.ctl">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="QueryCustomDevices.vi" Type="VI" URL="../QueryCustomDevices.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
