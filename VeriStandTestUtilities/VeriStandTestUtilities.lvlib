@@ -32,9 +32,7 @@
 	<Item Name="ConfigOverrideItem.ctl" Type="VI" URL="../ConfigOverrideItem.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="ConfigPropertyItem.ctl" Type="VI" URL="../ConfigPropertyItem.ctl">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="ConfigPropertyItem.ctl" Type="VI" URL="../ConfigPropertyItem.ctl"/>
 	<Item Name="ConnectorPaneTemplate.ctl" Type="VI" URL="../ConnectorPaneTemplate.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
