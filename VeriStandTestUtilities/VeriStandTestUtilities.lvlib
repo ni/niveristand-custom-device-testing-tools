@@ -32,6 +32,9 @@
 	<Item Name="ConnectorPaneTemplate.ctl" Type="VI" URL="../ConnectorPaneTemplate.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ConvertSystemDefinitionPropertyTypeToEnum.vi" Type="VI" URL="../ConvertSystemDefinitionPropertyTypeToEnum.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="ExtractVINames.vi" Type="VI" URL="../ExtractVINames.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -41,6 +44,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GetExecutionMode.vi" Type="VI" URL="../GetExecutionMode.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="GetSystemDefinitionNodeByName.vi" Type="VI" URL="../GetSystemDefinitionNodeByName.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GetTargetIPAddresses.vi" Type="VI" URL="../GetTargetIPAddresses.vi"/>
@@ -75,6 +81,12 @@
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="SetSystemDefinitionPropertyValue.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="SystemDefinitionInformation.ctl" Type="VI" URL="../SystemDefinitionInformation.ctl"/>
+	<Item Name="SystemDefinitionPropertyType.ctl" Type="VI" URL="../SystemDefinitionPropertyType.ctl">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="TargetInformation.ctl" Type="VI" URL="../TargetInformation.ctl"/>
 </Library>
