@@ -64,6 +64,10 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ConfigPropertyItem.ctl" Type="VI" URL="../ConfigPropertyItem.ctl"/>
+	<Item Name="ConfigureSystemDefinitionFile.vi" Type="VI" URL="../ConfigureSystemDefinitionFile.vi"/>
+	<Item Name="ConfigureTarget.vi" Type="VI" URL="../ConfigureTarget.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="ConnectorPaneTemplate.ctl" Type="VI" URL="../ConnectorPaneTemplate.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -89,6 +93,9 @@
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
+	<Item Name="ParseSystemDefinitionFile.vi" Type="VI" URL="../ParseSystemDefinitionFile.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="QueryCustomDevices.vi" Type="VI" URL="../QueryCustomDevices.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -109,6 +116,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="SaveSystemDefinitionFile.vi" Type="VI" URL="../SaveSystemDefinitionFile.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="SystemDefinitionInformation.ctl" Type="VI" URL="../SystemDefinitionInformation.ctl"/>
