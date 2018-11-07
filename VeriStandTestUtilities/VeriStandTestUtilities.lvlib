@@ -19,6 +19,9 @@
 		<Item Name="GetSystemDefinitionPropertyValue_U16.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_U16.vi"/>
 		<Item Name="GetSystemDefinitionPropertyValue_U32.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_U32.vi"/>
 		<Item Name="GetSystemDefinitionPropertyValue_U64.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_U64.vi"/>
+		<Item Name="GetSystemDefinitionPropertyValueErrorMessage.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValueErrorMessage.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="SetSystemDefinitionPropertyValue" Type="Folder">
 		<Item Name="SetSystemDefinitionPropertyValue.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue.vi"/>
@@ -31,6 +34,9 @@
 		<Item Name="SetSystemDefinitionPropertyValue_U16.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_U16.vi"/>
 		<Item Name="SetSystemDefinitionPropertyValue_U32.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_U32.vi"/>
 		<Item Name="SetSystemDefinitionPropertyValue_U64.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_U64.vi"/>
+		<Item Name="SetSystemDefinitionPropertyValueErrorMessage.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValueErrorMessage.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="SetSystemDefinitionPropertyValueFromString.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValueFromString.vi"/>
 	</Item>
 	<Item Name="ApplySystemDefinitionOverride.vi" Type="VI" URL="../ApplySystemDefinitionOverride.vi">
