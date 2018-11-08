@@ -29,6 +29,10 @@
 	<Item Name="CheckVeriStandVersionMatchesLabVIEW.vi" Type="VI" URL="../CheckVeriStandVersionMatchesLabVIEW.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ConfigureSystemDefinitionFile.vi" Type="VI" URL="../ConfigureSystemDefinitionFile.vi"/>
+	<Item Name="ConfigureTarget.vi" Type="VI" URL="../ConfigureTarget.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="ConnectorPaneTemplate.ctl" Type="VI" URL="../ConnectorPaneTemplate.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -53,6 +57,9 @@
 	<Item Name="OverrideItem.ctl" Type="VI" URL="../OverrideItem.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ParseSystemDefinitionFile.vi" Type="VI" URL="../ParseSystemDefinitionFile.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="QueryCustomDevices.vi" Type="VI" URL="../QueryCustomDevices.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -73,6 +80,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="SaveSystemDefinitionFile.vi" Type="VI" URL="../SaveSystemDefinitionFile.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="SystemDefinitionInformation.ctl" Type="VI" URL="../SystemDefinitionInformation.ctl"/>
