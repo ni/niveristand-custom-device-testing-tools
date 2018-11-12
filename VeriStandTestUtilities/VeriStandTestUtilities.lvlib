@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="GetSystemDefinitionPropertyValue" Type="Folder">
 		<Item Name="GetSystemDefinitionPropertyValue.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue.vi"/>
+		<Item Name="GetSystemDefinitionPropertyValue_BinaryString.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_BinaryString.vi"/>
 		<Item Name="GetSystemDefinitionPropertyValue_Bool.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_Bool.vi"/>
 		<Item Name="GetSystemDefinitionPropertyValue_Double.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_Double.vi"/>
 		<Item Name="GetSystemDefinitionPropertyValue_I16.vi" Type="VI" URL="../GetSystemDefinitionPropertyValue/GetSystemDefinitionPropertyValue_I16.vi"/>
@@ -25,6 +26,7 @@
 	</Item>
 	<Item Name="SetSystemDefinitionPropertyValue" Type="Folder">
 		<Item Name="SetSystemDefinitionPropertyValue.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue.vi"/>
+		<Item Name="SetSystemDefinitionPropertyValue_BinaryString.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_BinaryString.vi"/>
 		<Item Name="SetSystemDefinitionPropertyValue_Bool.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_Bool.vi"/>
 		<Item Name="SetSystemDefinitionPropertyValue_Double.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_Double.vi"/>
 		<Item Name="SetSystemDefinitionPropertyValue_I16.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValue_I16.vi"/>
