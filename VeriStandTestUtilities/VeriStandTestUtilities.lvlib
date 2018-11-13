@@ -45,6 +45,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="AssertConnectorPanesMatchExpected.vi" Type="VI" URL="../AssertConnectorPanesMatchExpected.vi"/>
+	<Item Name="AssertSourceSeparatedFromCompiledCode.vi" Type="VI" URL="../AssertSourceSeparatedFromCompiledCode.vi"/>
 	<Item Name="AssertTargetsHaveCorrectVeriStandVersion.vi" Type="VI" URL="../AssertTargetsHaveCorrectVeriStandVersion.vi"/>
 	<Item Name="AssertXPathConnectorPanesMatchTemplateFiles.vi" Type="VI" URL="../AssertXPathConnectorPanesMatchTemplateFiles.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -93,6 +94,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
+	<Item Name="GetVIsWithCompiledCode.vi" Type="VI" URL="../GetVIsWithCompiledCode.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
 	<Item Name="ParseSystemDefinitionFile.vi" Type="VI" URL="../ParseSystemDefinitionFile.vi">
