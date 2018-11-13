@@ -72,6 +72,11 @@
 							<Item Name="CustomDeviceSystemPage.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceSystemPage.xml"/>
 							<Item Name="CustomDeviceUnexpectedTerminalFound.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceUnexpectedTerminalFound.xml"/>
 						</Item>
+						<Item Name="SeparateFromCompiledCode" Type="Folder">
+							<Item Name="NotSeparated_1.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_1.vi"/>
+							<Item Name="NotSeparated_2.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_2.vi"/>
+							<Item Name="Separated.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/Separated.vi"/>
+						</Item>
 						<Item Name="GenerateOverriddenSystemDefinitionOverrides.ini" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/GenerateOverriddenSystemDefinitionOverrides.ini"/>
 						<Item Name="GenerateOverriddenSystemDefinitionTest.nivssdf" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/GenerateOverriddenSystemDefinitionTest.nivssdf"/>
 						<Item Name="IPAddressTest.nivssdf" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/IPAddressTest.nivssdf"/>
@@ -375,11 +380,6 @@
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
-				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
-				<Item Name="List Directory Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory Recursive__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -744,12 +744,6 @@
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="Librarian File List.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File List.ctl"/>
-				<Item Name="Librarian File Info Out.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info Out.ctl"/>
-				<Item Name="Librarian File Info In.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info In.ctl"/>
-				<Item Name="Librarian.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian.vi"/>
-				<Item Name="Get VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library File Info.vi"/>
-				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
