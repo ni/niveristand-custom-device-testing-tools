@@ -12,7 +12,7 @@ The source for this repository is written in [LabVIEW 2015](http://www.ni.com/en
 
 The following top-level dependencies are required to build and use the repository:
 
-- [NI VeriStand](http://www.ni.com/veristand/) >= 2015 SP1
+- [NI VeriStand](http://www.ni.com/veristand/) >= 2015
 - [LabVIEW Command Line Interface](http://www.ni.com/download/labview-command-line-interface-18.0/7545/en/) >= 2018 
 - [VI Tester JUnit XML Test Results](vipm://jki_lib_vi_tester_junit_xml_results?repo_url=http://www.jkisoft.com/packages) >= 2.0.1.16
 
@@ -28,7 +28,7 @@ To create a new unit test, create a VI Tester test case which derives from `Test
 
 To create a new system test, create a VI Tester test case which derives from `VeriStandTestCase`. A test case may define `VeriStandTestCase.setUp` which calls `VeriStandTestCase.OpenVeriStandConnection` to launch VeriStand and deploy a VeriStand system definition. In this situation, a test must define `VeriStandTestCase.tearDown` which calls `VeriStandTestCase.CloseVeriStandConnection` to undeploy the VeriStand system definition.
 
-See this VI Tester documentation for more information on [creating new tests](https://github.com/JKISoftware/JKI-VI-Tester/wiki/Creating-New-Tests).
+See the VI Tester documentation for more information on [creating new tests](https://github.com/JKISoftware/JKI-VI-Tester/wiki/Creating-New-Tests).
 
 
 ### Running Existing Tests
@@ -37,7 +37,7 @@ Test may be run from the LabVIEW editor or the command line. The LabVIEW editor 
 
 To run existing tests from the LabVIEW editor, launch the VI Tester user interface by selecting `Tools > VI Tester > Test VIs...` from the LabVIEW menu. VI Tester will enumerate all the test cases in the project. Click the `Run all tests` or `Run selected test` button to run tests.
 
-See this VI Tester documentation for more information on [running existing tests](https://github.com/JKISoftware/JKI-VI-Tester/wiki/Running-Tests-for-a-Project).
+See the VI Tester documentation for more information on [running existing tests](https://github.com/JKISoftware/JKI-VI-Tester/wiki/Running-Tests-for-a-Project).
 
 To run existing tests from the command line, run the VI Tester operation using `LabVIEWCLI.exe` and specify the path to one or more test cases:
 
@@ -60,12 +60,21 @@ LabVIEWCLI.exe
   -AdditionalOperationDirectory "C:\Git\VeriStand\niveristand-custom-device-testing-tools\RunVITester"
 ```
 
-Specify absolute file paths for the path parameters. Specify the optional LabVIEWPath parameter to launch the desired version of LabVIEW.
+Specify absolute file paths for the path parameters. Specify the optional LabVIEWPath parameter to launch a specific version of LabVIEW.
 
 
 ### Local Test Configuration
 
-System definition files may be commited with ephemeral configuration such as IP address and module slot. 
+System definition files are  commited with ephemeral configuration such as IP addresses. Instead of modifying the system definition files or test VIs on each test machine, a user can define overrides in a local configuration file. The local configuration are saved next to system definition file. The overrides are applied and the merged system definition file is deployed. The local configuration file, `config.ini`, contains a list of overrides and optional test properties.
+
+
+```
+[Overrides]
+"Targets/Controller/Custom Devices/SLSC/NI SLSC-12001/user.CD.Chassis IP Address" = "10.2.104.19"
+
+[Properties]
+"Loopback Resource Name" = "rio://10.2.104.35/RIO0"
+```
 
 
 ## Git History & Rebasing Policy
