@@ -65,8 +65,7 @@ Specify absolute file paths for the path parameters. Specify the optional LabVIE
 
 ### Local Test Configuration
 
-System definition files are  commited with ephemeral configuration such as IP addresses. Instead of modifying the system definition files or test VIs on each test machine, a user can define overrides in a local configuration file. The local configuration are saved next to system definition file. The overrides are applied and the merged system definition file is deployed. The local configuration file, `config.ini`, contains a list of overrides and optional test properties.
-
+System definition files are commited with ephemeral configuration such as IP addresses. Instead of modifying the system definition files or test VIs on each test machine, a user can update these properties with a local configuration file. The local configuration file contains a list of overrides and optional test properties. The overrides are applied and the merged system definition file is deployed.
 
 ```
 [Overrides]
@@ -76,6 +75,7 @@ System definition files are  commited with ephemeral configuration such as IP ad
 "Loopback Resource Name" = "rio://10.2.104.35/RIO0"
 ```
 
+By default the testing tools will load the local configuration file, named `config.ini`, which is saved next to system definition file. Alternatively a user can specify one or more local configuration files as an optional parameter to `VeriStandTestCase.OpenVeriStandConnection`.
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
