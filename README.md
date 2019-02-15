@@ -13,7 +13,7 @@ The source for this repository is written in [LabVIEW 2015](http://www.ni.com/en
 The following top-level dependencies are required to build and use the repository:
 
 - [NI VeriStand](http://www.ni.com/veristand/) >= 2015
-- [LabVIEW Command Line Interface](http://www.ni.com/download/labview-command-line-interface-18.0/7545/en/) >= 2018 
+- [LabVIEW Command Line Interface](http://www.ni.com/en-us/support/downloads/software-products/download.ni-labview-command-line-interface.html)
 - [VI Tester JUnit XML Test Results](vipm://jki_lib_vi_tester_junit_xml_results?repo_url=http://www.jkisoft.com/packages) >= 2.0.1.16
 
 
