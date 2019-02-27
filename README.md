@@ -14,6 +14,7 @@ The following top-level dependencies are required to build and use the repositor
 
 - [NI VeriStand](http://www.ni.com/veristand/) >= 2015
 - [LabVIEW Command Line Interface](http://www.ni.com/en-us/support/downloads/software-products/download.ni-labview-command-line-interface.html)
+- [JKI VI Tester](vipm://jki_labs_tool_vi_tester?repo_url=http://www.jkisoft.com/packages) >= 3.0.2.294-1
 - [VI Tester JUnit XML Test Results](vipm://jki_lib_vi_tester_junit_xml_results?repo_url=http://www.jkisoft.com/packages) >= 2.0.1.16
 
 
