@@ -41,9 +41,6 @@
 		</Item>
 		<Item Name="SetSystemDefinitionPropertyValueFromString.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValueFromString.vi"/>
 	</Item>
-	<Item Name="ApplySystemDefinitionOverride.vi" Type="VI" URL="../ApplySystemDefinitionOverride.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="AssertConnectorPanesMatchExpected.vi" Type="VI" URL="../AssertConnectorPanesMatchExpected.vi"/>
 	<Item Name="AssertConnectorPanesMatchTemplateFiles.vi" Type="VI" URL="../AssertConnectorPanesMatchTemplateFiles.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -84,9 +81,6 @@
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi" Type="VI" URL="../GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi"/>
 	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
-	<Item Name="GetConnectorPaneTemplateForExecutionMode.vi" Type="VI" URL="../GetConnectorPaneTemplateForExecutionMode.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="GetCustomDeviceInitializationVI.vi" Type="VI" URL="../GetCustomDeviceInitializationVI.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
