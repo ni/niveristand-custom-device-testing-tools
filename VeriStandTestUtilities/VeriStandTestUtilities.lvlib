@@ -72,9 +72,6 @@
 	<Item Name="ConvertSystemDefinitionPropertyTypeToEnum.vi" Type="VI" URL="../ConvertSystemDefinitionPropertyTypeToEnum.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="ExtractVINames.vi" Type="VI" URL="../ExtractVINames.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="FilterCustomDeviceVIs.vi" Type="VI" URL="../FilterCustomDeviceVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
