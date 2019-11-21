@@ -1,56 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CustomDevice.xsd">
-<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
-  <AddMenu>
-    <eng>CD Name</eng>
-    <loc>CD Name</loc>
-  </AddMenu>
-  <Version>1.0</Version>
-  <Type>Asynchronous</Type>
-  <MaxOccurrence>2474</MaxOccurrence>
-  <MainPageGUID>bbcf0d7c-a80e-4ca1-824b-14c51244592f</MainPageGUID>
-  <InitializationVI>
-    <Type>Action</Type>
-    <Item2Launch>
-      <Type>To Common Doc Dir</Type>
-      <Path>Custom Devices\CD Name\CD Name Configuration.llb\InitializationVI_Good.vi</Path>
-    </Item2Launch>
-  </InitializationVI>
-  <CustomDeviceVI>
-    <SourceDistribution>
-      <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\CD Name\CD Name Engine.llb\CD Name RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\CD Name\CD Name Engine.llb\AsynchronousCustomDeviceDriverVI_Good.vi</RealTimeSystemDestination>
-      </Source>
-    </SourceDistribution>
-  </CustomDeviceVI>
-  <Dependencies />
-  <Pages>
-    <Page>
-      <Name>
-        <eng>CD Name</eng>
-        <loc>CD Name</loc>
-      </Name>
-      <GUID>bbcf0d7c-a80e-4ca1-824b-14c51244592f</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Page_Good.vi</Path>
-      </Item2Launch>
-      <ActionVIOnDelete>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
-      </ActionVIOnDelete>
-    </Page>
-  </Pages>
-  <CustomXML>
-    <Dummy></Dummy>
-  </CustomXML>
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>CD Name</eng>
+		<loc>CD Name</loc>
+	</AddMenu>
+	<Version>1.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>bbcf0d7c-a80e-4ca1-824b-14c51244592f</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\CD Name\CD Name Configuration.llb\InitializationVI_Good.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\CD Name\CD Name Engine.llb\AsynchronousCustomDeviceDriverVI_Good.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\CD Name\CD Name Engine.llb\AsynchronousCustomDeviceDriverVI_Good.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>CD Name</eng>
+				<loc>CD Name</loc>
+			</Name>
+			<GUID>bbcf0d7c-a80e-4ca1-824b-14c51244592f</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CD Name\CD Name Configuration.llb\Page_Good.vi</Path>
+			</Item2Launch>
+			<ActionVIOnDelete>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CD Name\CD Name Configuration.llb\Nonexistent.vi</Path>
+			</ActionVIOnDelete>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
 </CustomDevice>

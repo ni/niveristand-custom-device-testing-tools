@@ -1,0 +1,3 @@
+# The EOL format for these files is set by the VeriStand XML parser when the tests are run.
+# Don't let git change the files, as this causes unnecessary dirty dots
+VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/*.xml    -text
