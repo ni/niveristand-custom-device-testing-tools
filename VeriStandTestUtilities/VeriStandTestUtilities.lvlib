@@ -41,6 +41,7 @@
 		</Item>
 		<Item Name="SetSystemDefinitionPropertyValueFromString.vi" Type="VI" URL="../SetSystemDefinitionPropertyValue/SetSystemDefinitionPropertyValueFromString.vi"/>
 	</Item>
+	<Item Name="ApplyTargetConfiguration.vi" Type="VI" URL="../ApplyTargetConfiguration.vi"/>
 	<Item Name="AssertConnectorPanesMatchExpected.vi" Type="VI" URL="../AssertConnectorPanesMatchExpected.vi"/>
 	<Item Name="AssertConnectorPanesMatchTemplateFiles.vi" Type="VI" URL="../AssertConnectorPanesMatchTemplateFiles.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -72,6 +73,7 @@
 	<Item Name="ConvertSystemDefinitionPropertyTypeToEnum.vi" Type="VI" URL="../ConvertSystemDefinitionPropertyTypeToEnum.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ConvertTargetPlatformToOperatingSystem.vi" Type="VI" URL="../ConvertTargetPlatformToOperatingSystem.vi"/>
 	<Item Name="FilterCustomDeviceVIs.vi" Type="VI" URL="../FilterCustomDeviceVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -124,6 +126,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ReadSystemDefinitionOverrideFile.vi" Type="VI" URL="../ReadSystemDefinitionOverrideFile.vi"/>
+	<Item Name="ReadTargetsConfigurationFile.vi" Type="VI" URL="../ReadTargetsConfigurationFile.vi"/>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -135,4 +138,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="TargetInformation.ctl" Type="VI" URL="../TargetInformation.ctl"/>
+	<Item Name="TargetPlatform.ctl" Type="VI" URL="../TargetPlatform.ctl"/>
+	<Item Name="TargetsConfiguration.ctl" Type="VI" URL="../TargetsConfiguration.ctl"/>
 </Library>
