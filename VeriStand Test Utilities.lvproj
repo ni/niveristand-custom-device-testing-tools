@@ -24,6 +24,7 @@
 				<Item Name="System" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/BenchmarkConfiguration.ini"/>
+						<Item Name="DummyProperty.ini" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/DummyProperty.ini"/>
 						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/MostlyEmpty.nivssdf"/>
 					</Item>
 					<Item Name="VeriStandTestCaseSystemTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/System/VeriStandTestCaseSystemTests.lvclass"/>
@@ -1021,6 +1022,7 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="VeriStandTestCaseTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseTests.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
