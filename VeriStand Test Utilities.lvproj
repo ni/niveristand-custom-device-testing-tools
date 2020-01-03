@@ -17,11 +17,16 @@
 			<Item Name="Tests" Type="Folder">
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../VeriStandTestCase/Tests/Unit/Assets/BenchmarkConfiguration.ini"/>
 						<Item Name="DummyProperty.ini" Type="Document" URL="../VeriStandTestCase/Tests/Unit/Assets/DummyProperty.ini"/>
-						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../VeriStandTestCase/Tests/Unit/Assets/MostlyEmpty.nivssdf"/>
 					</Item>
-					<Item Name="VeriStandTestCaseTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseTests.lvclass"/>
+					<Item Name="VeriStandTestCaseUnitTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/Unit/VeriStandTestCaseUnitTests.lvclass"/>
+				</Item>
+				<Item Name="System" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/BenchmarkConfiguration.ini"/>
+						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/MostlyEmpty.nivssdf"/>
+					</Item>
+					<Item Name="VeriStandTestCaseSystemTests.lvclass" Type="LVClass" URL="../VeriStandTestCase/Tests/System/VeriStandTestCaseSystemTests.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
