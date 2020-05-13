@@ -74,7 +74,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ConvertTargetPlatformToOperatingSystem.vi" Type="VI" URL="../ConvertTargetPlatformToOperatingSystem.vi"/>
-	<Item Name="Delay Data Flow.vim" Type="VI" URL="../Delay Data Flow.vim"/>
+	<Item Name="DelayDataFlow.vim" Type="VI" URL="../DelayDataFlow.vim"/>
 	<Item Name="FilterCustomDeviceVIs.vi" Type="VI" URL="../FilterCustomDeviceVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
