@@ -31,6 +31,7 @@
 				</Item>
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../VeriStandTestCase/VeriStandTestCase.lvclass"/>
+			<Item Name="VeriStandScriptingTestCase.lvclass" Type="LVClass" URL="../VeriStandScriptingTestCase/VeriStandScriptingTestCase.lvclass"/>
 		</Item>
 		<Item Name="VeriStandTestUtilities" Type="Folder">
 			<Item Name="Tests" Type="Folder">
