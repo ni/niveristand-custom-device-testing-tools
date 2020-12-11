@@ -58,6 +58,7 @@
 	<Item Name="CheckIfConnectorPanesMatch.vi" Type="VI" URL="../CheckIfConnectorPanesMatch.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="CheckifVeriStandisRunning.vi" Type="VI" URL="../CheckifVeriStandisRunning.vi"/>
 	<Item Name="CheckVeriStandVersionMatchesLabVIEW.vi" Type="VI" URL="../CheckVeriStandVersionMatchesLabVIEW.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -108,6 +109,7 @@
 	</Item>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
+	<Item Name="OpenVeriStandProjectExplorer.vi" Type="VI" URL="../OpenVeriStandProjectExplorer.vi"/>
 	<Item Name="ParseSystemDefinitionFile.vi" Type="VI" URL="../ParseSystemDefinitionFile.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
