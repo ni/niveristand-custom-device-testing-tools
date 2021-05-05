@@ -134,9 +134,7 @@
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="SaveSystemDefinitionFile.vi" Type="VI" URL="../SaveSystemDefinitionFile.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="SaveSystemDefinitionFile.vi" Type="VI" URL="../SaveSystemDefinitionFile.vi"/>
 	<Item Name="SystemDefinitionInformation.ctl" Type="VI" URL="../SystemDefinitionInformation.ctl"/>
 	<Item Name="SystemDefinitionPropertyType.ctl" Type="VI" URL="../SystemDefinitionPropertyType.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
