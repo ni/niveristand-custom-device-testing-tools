@@ -98,6 +98,9 @@
 	<Item Name="GetCustomDeviceXMLVIs.vi" Type="VI" URL="../GetCustomDeviceXMLVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GetLVFilesWithCompiledCode.vi" Type="VI" URL="../GetLVFilesWithCompiledCode.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="GetSystemDefinitionNodeByName.vi" Type="VI" URL="../GetSystemDefinitionNodeByName.vi"/>
 	<Item Name="GetTargetIPAddresses.vi" Type="VI" URL="../GetTargetIPAddresses.vi"/>
 	<Item Name="GetValuesMatchingXPath.vi" Type="VI" URL="../GetValuesMatchingXPath.vi">
