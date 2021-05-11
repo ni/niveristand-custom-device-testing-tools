@@ -107,9 +107,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
-	<Item Name="GetVIsWithCompiledCode.vi" Type="VI" URL="../GetVIsWithCompiledCode.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
 	<Item Name="OpenVeriStandProjectExplorer.vi" Type="VI" URL="../OpenVeriStandProjectExplorer.vi"/>
