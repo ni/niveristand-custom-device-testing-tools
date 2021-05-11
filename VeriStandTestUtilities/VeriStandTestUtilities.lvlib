@@ -98,15 +98,15 @@
 	<Item Name="GetCustomDeviceXMLVIs.vi" Type="VI" URL="../GetCustomDeviceXMLVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GetLVFilesWithCompiledCode.vi" Type="VI" URL="../GetLVFilesWithCompiledCode.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="GetSystemDefinitionNodeByName.vi" Type="VI" URL="../GetSystemDefinitionNodeByName.vi"/>
 	<Item Name="GetTargetIPAddresses.vi" Type="VI" URL="../GetTargetIPAddresses.vi"/>
 	<Item Name="GetValuesMatchingXPath.vi" Type="VI" URL="../GetValuesMatchingXPath.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
-	<Item Name="GetVIsWithCompiledCode.vi" Type="VI" URL="../GetVIsWithCompiledCode.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
 	<Item Name="OpenVeriStandProjectExplorer.vi" Type="VI" URL="../OpenVeriStandProjectExplorer.vi"/>
