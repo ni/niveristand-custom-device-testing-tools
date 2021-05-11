@@ -80,8 +80,14 @@
 							<Item Name="CustomDeviceUnexpectedTerminalFound.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceUnexpectedTerminalFound.xml"/>
 						</Item>
 						<Item Name="SeparateFromCompiledCode" Type="Folder">
+							<Property Name="NI.SortType" Type="Int">0</Property>
+							<Item Name="NotSeparated.ctl" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.ctl"/>
+							<Item Name="NotSeparated.ctt" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.ctt"/>
+							<Item Name="NotSeparated.vim" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.vim"/>
+							<Item Name="NotSeparated.vit" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.vit"/>
 							<Item Name="NotSeparated_1.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_1.vi"/>
 							<Item Name="NotSeparated_2.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_2.vi"/>
+							<Item Name="Separated.ctl" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/Separated.ctl"/>
 							<Item Name="Separated.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/Separated.vi"/>
 						</Item>
 						<Item Name="GenerateOverriddenSystemDefinitionOverrides.ini" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/GenerateOverriddenSystemDefinitionOverrides.ini"/>
