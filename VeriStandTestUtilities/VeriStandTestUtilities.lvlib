@@ -75,6 +75,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="ConvertTargetPlatformToOperatingSystem.vi" Type="VI" URL="../ConvertTargetPlatformToOperatingSystem.vi"/>
+	<Item Name="CreateNewSystemDefinition.vi" Type="VI" URL="../CreateNewSystemDefinition.vi"/>
 	<Item Name="DelayDataFlow.vim" Type="VI" URL="../DelayDataFlow.vim"/>
 	<Item Name="FilterCustomDeviceVIs.vi" Type="VI" URL="../FilterCustomDeviceVIs.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -83,6 +84,7 @@
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi" Type="VI" URL="../GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi"/>
 	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
+	<Item Name="GetAssetsDirectory.vi" Type="VI" URL="../GetAssetsDirectory.vi"/>
 	<Item Name="GetCustomDeviceInitializationVI.vi" Type="VI" URL="../GetCustomDeviceInitializationVI.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
