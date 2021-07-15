@@ -84,6 +84,7 @@
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi" Type="VI" URL="../GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi"/>
 	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
+	<Item Name="GetAssetsDirectory.vi" Type="VI" URL="../GetAssetsDirectory.vi"/>
 	<Item Name="GetCustomDeviceInitializationVI.vi" Type="VI" URL="../GetCustomDeviceInitializationVI.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
