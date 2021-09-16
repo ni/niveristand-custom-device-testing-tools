@@ -131,6 +131,7 @@
 	<Item Name="QueryTimingAndSyncHardware.vi" Type="VI" URL="../QueryTimingAndSyncHardware.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Read Rx Values Until Equal.vi" Type="VI" URL="../Read Rx Values Until Equal.vi"/>
 	<Item Name="ReadSystemDefinitionOverrideFile.vi" Type="VI" URL="../ReadSystemDefinitionOverrideFile.vi"/>
 	<Item Name="ReadTargetsConfigurationFile.vi" Type="VI" URL="../ReadTargetsConfigurationFile.vi"/>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
@@ -144,4 +145,5 @@
 	<Item Name="TargetInformation.ctl" Type="VI" URL="../TargetInformation.ctl"/>
 	<Item Name="TargetPlatform.ctl" Type="VI" URL="../TargetPlatform.ctl"/>
 	<Item Name="TargetsConfiguration.ctl" Type="VI" URL="../TargetsConfiguration.ctl"/>
+	<Item Name="Write Tx Values and Read Rx Values Until Equal.vi" Type="VI" URL="../Write Tx Values and Read Rx Values Until Equal.vi"/>
 </Library>
