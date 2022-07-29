@@ -220,7 +220,7 @@
 			<Item Name="Unit" Type="Folder">
 				<Item Name="VeriStandTestCaseUnitTests" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="DummyProperty.ini" Type="Document" URL="../VeriStandTestCase/Tests/Unit/Assets/DummyProperty.ini"/>
+						<Item Name="DummyProperty.ini" Type="Document" URL="../Tests/Unit/VeriStandTestCaseUnitTests/Assets/DummyProperty.ini"/>
 					</Item>
 					<Item Name="VeriStandTestCaseUnitTests.lvclass" Type="LVClass" URL="../Tests/Unit/VeriStandTestCaseUnitTests/VeriStandTestCaseUnitTests.lvclass"/>
 				</Item>
@@ -228,61 +228,60 @@
 					<Item Name="Assets" Type="Folder">
 						<Item Name="CustomDeviceHooks" Type="Folder">
 							<Item Name="Bad" Type="Folder">
-								<Item Name="Page_ExpectedTerminalNotFound.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_ExpectedTerminalNotFound.vi"/>
-								<Item Name="Page_IncorrectTerminalType.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_IncorrectTerminalType.vi"/>
-								<Item Name="Page_UnexpectedTerminalFound.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Bad/Page_UnexpectedTerminalFound.vi"/>
+								<Item Name="Page_ExpectedTerminalNotFound.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Bad/Page_ExpectedTerminalNotFound.vi"/>
+								<Item Name="Page_IncorrectTerminalType.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Bad/Page_IncorrectTerminalType.vi"/>
+								<Item Name="Page_UnexpectedTerminalFound.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Bad/Page_UnexpectedTerminalFound.vi"/>
 							</Item>
 							<Item Name="Good" Type="Folder">
-								<Item Name="ActionVIOnCompile_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnCompile_Good.vi"/>
-								<Item Name="ActionVIOnDelete_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDelete_Good.vi"/>
-								<Item Name="ActionVIOnDeleteRequest_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDeleteRequest_Good.vi"/>
-								<Item Name="ActionVIOnDownload_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnDownload_Good.vi"/>
-								<Item Name="ActionVIOnLoad_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnLoad_Good.vi"/>
-								<Item Name="ActionVIOnPaste_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnPaste_Good.vi"/>
-								<Item Name="ActionVIOnSave_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnSave_Good.vi"/>
-								<Item Name="ActionVIOnShutdown_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/ActionVIOnShutdown_Good.vi"/>
-								<Item Name="AsynchronousCustomDeviceDriverVI_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/AsynchronousCustomDeviceDriverVI_Good.vi"/>
-								<Item Name="InitializationVI_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/InitializationVI_Good.vi"/>
-								<Item Name="InlineCustomDeviceDriverVIHWInterface_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIHWInterface_Good.vi"/>
-								<Item Name="InlineCustomDeviceDriverVIModelInterface_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIModelInterface_Good.vi"/>
-								<Item Name="Page_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/Page_Good.vi"/>
-								<Item Name="RunTimeMenuCustomItem2Launch_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/RunTimeMenuCustomItem2Launch_Good.vi"/>
-								<Item Name="TimingSourceInitializationVI_Good.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/Good/TimingSourceInitializationVI_Good.vi"/>
+								<Item Name="ActionVIOnCompile_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnCompile_Good.vi"/>
+								<Item Name="ActionVIOnDelete_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnDelete_Good.vi"/>
+								<Item Name="ActionVIOnDeleteRequest_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnDeleteRequest_Good.vi"/>
+								<Item Name="ActionVIOnDownload_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnDownload_Good.vi"/>
+								<Item Name="ActionVIOnLoad_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnLoad_Good.vi"/>
+								<Item Name="ActionVIOnPaste_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnPaste_Good.vi"/>
+								<Item Name="ActionVIOnSave_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnSave_Good.vi"/>
+								<Item Name="ActionVIOnShutdown_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/ActionVIOnShutdown_Good.vi"/>
+								<Item Name="AsynchronousCustomDeviceDriverVI_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/AsynchronousCustomDeviceDriverVI_Good.vi"/>
+								<Item Name="InitializationVI_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/InitializationVI_Good.vi"/>
+								<Item Name="InlineCustomDeviceDriverVIHWInterface_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIHWInterface_Good.vi"/>
+								<Item Name="InlineCustomDeviceDriverVIModelInterface_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/InlineCustomDeviceDriverVIModelInterface_Good.vi"/>
+								<Item Name="Page_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/Page_Good.vi"/>
+								<Item Name="RunTimeMenuCustomItem2Launch_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/RunTimeMenuCustomItem2Launch_Good.vi"/>
+								<Item Name="TimingSourceInitializationVI_Good.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/Good/TimingSourceInitializationVI_Good.vi"/>
 							</Item>
-							<Item Name="CustomDeviceAllGood.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceAllGood.xml"/>
-							<Item Name="CustomDeviceExpectedTerminalNotFound.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceExpectedTerminalNotFound.xml"/>
-							<Item Name="CustomDeviceIncorrectTerminalType.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceIncorrectTerminalType.xml"/>
-							<Item Name="CustomDeviceMissingAsynchronousDriver.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingAsynchronousDriver.xml"/>
-							<Item Name="CustomDeviceMissingInitialization.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingInitialization.xml"/>
-							<Item Name="CustomDeviceMissingOnCompile.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnCompile.xml"/>
-							<Item Name="CustomDeviceMissingOnDelete.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnDelete.xml"/>
-							<Item Name="CustomDeviceMissingOnDeleteRequest.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnDeleteRequest.xml"/>
-							<Item Name="CustomDeviceMissingOnDownload.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnDownload.xml"/>
-							<Item Name="CustomDeviceMissingOnLoad.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnLoad.xml"/>
-							<Item Name="CustomDeviceMissingOnPaste.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnPaste.xml"/>
-							<Item Name="CustomDeviceMissingOnSave.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnSave.xml"/>
-							<Item Name="CustomDeviceMissingOnShutdown.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingOnShutdown.xml"/>
-							<Item Name="CustomDeviceMissingPage.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingPage.xml"/>
-							<Item Name="CustomDeviceMissingRunTimeMenu.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingRunTimeMenu.xml"/>
-							<Item Name="CustomDeviceMissingTimingSourceInitialization.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceMissingTimingSourceInitialization.xml"/>
-							<Item Name="CustomDeviceSystemPage.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceSystemPage.xml"/>
-							<Item Name="CustomDeviceUnexpectedTerminalFound.xml" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/CustomDeviceHooks/CustomDeviceUnexpectedTerminalFound.xml"/>
+							<Item Name="CustomDeviceAllGood.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceAllGood.xml"/>
+							<Item Name="CustomDeviceExpectedTerminalNotFound.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceExpectedTerminalNotFound.xml"/>
+							<Item Name="CustomDeviceIncorrectTerminalType.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceIncorrectTerminalType.xml"/>
+							<Item Name="CustomDeviceMissingAsynchronousDriver.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingAsynchronousDriver.xml"/>
+							<Item Name="CustomDeviceMissingInitialization.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingInitialization.xml"/>
+							<Item Name="CustomDeviceMissingOnCompile.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnCompile.xml"/>
+							<Item Name="CustomDeviceMissingOnDelete.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnDelete.xml"/>
+							<Item Name="CustomDeviceMissingOnDeleteRequest.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnDeleteRequest.xml"/>
+							<Item Name="CustomDeviceMissingOnDownload.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnDownload.xml"/>
+							<Item Name="CustomDeviceMissingOnLoad.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnLoad.xml"/>
+							<Item Name="CustomDeviceMissingOnPaste.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnPaste.xml"/>
+							<Item Name="CustomDeviceMissingOnSave.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnSave.xml"/>
+							<Item Name="CustomDeviceMissingOnShutdown.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingOnShutdown.xml"/>
+							<Item Name="CustomDeviceMissingPage.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingPage.xml"/>
+							<Item Name="CustomDeviceMissingRunTimeMenu.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingRunTimeMenu.xml"/>
+							<Item Name="CustomDeviceMissingTimingSourceInitialization.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceMissingTimingSourceInitialization.xml"/>
+							<Item Name="CustomDeviceSystemPage.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceSystemPage.xml"/>
+							<Item Name="CustomDeviceUnexpectedTerminalFound.xml" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/CustomDeviceHooks/CustomDeviceUnexpectedTerminalFound.xml"/>
 						</Item>
 						<Item Name="SeparateFromCompiledCode" Type="Folder">
-							<Property Name="NI.SortType" Type="Int">0</Property>
-							<Item Name="NotSeparated.ctl" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.ctl"/>
-							<Item Name="NotSeparated.ctt" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.ctt"/>
-							<Item Name="NotSeparated.vim" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.vim"/>
-							<Item Name="NotSeparated.vit" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated.vit"/>
-							<Item Name="NotSeparated_1.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_1.vi"/>
-							<Item Name="NotSeparated_2.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/NotSeparated_2.vi"/>
-							<Item Name="Separated.ctl" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/Separated.ctl"/>
-							<Item Name="Separated.vi" Type="VI" URL="../VeriStandTestUtilities/Tests/Unit/Assets/SeparateFromCompiledCode/Separated.vi"/>
+							<Item Name="NotSeparated.ctl" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated.ctl"/>
+							<Item Name="NotSeparated.ctt" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated.ctt"/>
+							<Item Name="NotSeparated.vim" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated.vim"/>
+							<Item Name="NotSeparated.vit" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated.vit"/>
+							<Item Name="NotSeparated_1.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated_1.vi"/>
+							<Item Name="NotSeparated_2.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/NotSeparated_2.vi"/>
+							<Item Name="Separated.ctl" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/Separated.ctl"/>
+							<Item Name="Separated.vi" Type="VI" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/SeparateFromCompiledCode/Separated.vi"/>
 						</Item>
-						<Item Name="GenerateOverriddenSystemDefinitionOverrides.ini" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/GenerateOverriddenSystemDefinitionOverrides.ini"/>
-						<Item Name="GenerateOverriddenSystemDefinitionTest.nivssdf" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/GenerateOverriddenSystemDefinitionTest.nivssdf"/>
-						<Item Name="IPAddressTest.nivssdf" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/IPAddressTest.nivssdf"/>
-						<Item Name="QuerySystemDefinitionTest.nivssdf" Type="Document" URL="../VeriStandTestUtilities/Tests/Unit/Assets/QuerySystemDefinitionTest.nivssdf"/>
+						<Item Name="GenerateOverriddenSystemDefinitionOverrides.ini" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/GenerateOverriddenSystemDefinitionOverrides.ini"/>
+						<Item Name="GenerateOverriddenSystemDefinitionTest.nivssdf" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/GenerateOverriddenSystemDefinitionTest.nivssdf"/>
+						<Item Name="IPAddressTest.nivssdf" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/IPAddressTest.nivssdf"/>
+						<Item Name="QuerySystemDefinitionTest.nivssdf" Type="Document" URL="../Tests/Unit/VeriStandTestUtilitiesTests/Assets/QuerySystemDefinitionTest.nivssdf"/>
 					</Item>
 					<Item Name="VeriStandTestUtilitiesTests.lvclass" Type="LVClass" URL="../Tests/Unit/VeriStandTestUtilitiesTests/VeriStandTestUtilitiesTests.lvclass"/>
 				</Item>
@@ -290,9 +289,9 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="VeriStandTestCaseSystemTests" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/BenchmarkConfiguration.ini"/>
-						<Item Name="DummyProperty.ini" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/DummyProperty.ini"/>
-						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../VeriStandTestCase/Tests/System/Assets/MostlyEmpty.nivssdf"/>
+						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/BenchmarkConfiguration.ini"/>
+						<Item Name="DummyProperty.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/DummyProperty.ini"/>
+						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/MostlyEmpty.nivssdf"/>
 					</Item>
 					<Item Name="VeriStandTestCaseSystemTests.lvclass" Type="LVClass" URL="../Tests/System/VeriStandTestCaseSystemTests/VeriStandTestCaseSystemTests.lvclass"/>
 				</Item>
@@ -968,6 +967,35 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 			</Item>
 			<Item Name="CoreOperation.lvclass" Type="LVClass" URL="/&lt;nishared&gt;/LabVIEW CLI/Operations/CoreOperation/CoreOperation.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -1002,6 +1030,60 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="SourceDistribution" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{16FF3F58-77C8-4E71-A7C9-364698EFC53D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SourceDistribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{228BAB35-E93E-4B3E-A5CD-6F83B44DB210}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{50714E3B-6EFC-481E-ABFD-477B112374EA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RunVITester.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DiscoverTestCases.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
