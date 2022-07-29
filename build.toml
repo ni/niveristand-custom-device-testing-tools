@@ -10,7 +10,7 @@ name = 'Test Utilities'
 type = 'lvBuildSpec'
 project = '{utilities}'
 target = 'My Computer'
-build_spec = 'Source Distribution'
+build_spec = 'SourceDistribution'
 
 [package]
 type = 'nipkg'
