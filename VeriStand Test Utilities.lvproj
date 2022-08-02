@@ -92,7 +92,7 @@
 				<Item Name="VeriStandTestCaseSystemTests" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/MostlyEmpty.nivssdf"/>
-						<Item Name="Config.ini" Type="Document" URL="../../../swap/System/Assets/Config.ini"/>
+						<Item Name="Config.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/Config.ini"/>
 					</Item>
 					<Item Name="VeriStandTestCaseSystemTests.lvclass" Type="LVClass" URL="../Tests/System/VeriStandTestCaseSystemTests/VeriStandTestCaseSystemTests.lvclass"/>
 				</Item>
