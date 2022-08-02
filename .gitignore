@@ -14,3 +14,12 @@
 # Metadata
 *.aliases
 *.lvlps
+*.lvproj.config
+
+# Output directory
+Built/
+
+# Intermediate Help Files
+*.log
+*.hhp
+*.chm
