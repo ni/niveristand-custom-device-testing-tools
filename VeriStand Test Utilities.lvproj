@@ -91,9 +91,8 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="VeriStandTestCaseSystemTests" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="BenchmarkConfiguration.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/BenchmarkConfiguration.ini"/>
-						<Item Name="DummyProperty.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/DummyProperty.ini"/>
 						<Item Name="MostlyEmpty.nivssdf" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/MostlyEmpty.nivssdf"/>
+						<Item Name="Config.ini" Type="Document" URL="../Tests/System/VeriStandTestCaseSystemTests/Assets/Config.ini"/>
 					</Item>
 					<Item Name="VeriStandTestCaseSystemTests.lvclass" Type="LVClass" URL="../Tests/System/VeriStandTestCaseSystemTests/VeriStandTestCaseSystemTests.lvclass"/>
 				</Item>
@@ -798,6 +797,7 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="CoreOperation.lvclass" Type="LVClass" URL="/&lt;nishared&gt;/LabVIEW CLI/Operations/CoreOperation/CoreOperation.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
