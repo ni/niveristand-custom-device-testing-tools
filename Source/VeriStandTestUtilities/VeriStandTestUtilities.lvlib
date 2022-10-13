@@ -81,6 +81,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="FindTargetInSystemDefinition.vi" Type="VI" URL="../FindTargetInSystemDefinition.vi"/>
+	<Item Name="FlattenSaveClassData.vi" Type="VI" URL="../FlattenSaveClassData.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi" Type="VI" URL="../GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi"/>
 	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
@@ -110,6 +111,7 @@
 	</Item>
 	<Item Name="GetVIFolderPath.vi" Type="VI" URL="../GetVIFolderPath.vi"/>
 	<Item Name="LaunchVeriStand.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/LaunchVeriStand.vi"/>
+	<Item Name="LoadUnflattenClassData.vi" Type="VI" URL="../LoadUnflattenClassData.vi"/>
 	<Item Name="LogForDuration.vi" Type="VI" URL="../LogForDuration.vi"/>
 	<Item Name="OpenVeriStandProjectExplorer.vi" Type="VI" URL="../OpenVeriStandProjectExplorer.vi"/>
 	<Item Name="ParseSystemDefinitionFile.vi" Type="VI" URL="../ParseSystemDefinitionFile.vi">
