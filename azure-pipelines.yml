@@ -30,7 +30,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'SourceDistribution'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '23.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\testing_tools'
 
