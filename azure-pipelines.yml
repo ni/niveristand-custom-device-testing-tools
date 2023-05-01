@@ -38,4 +38,3 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\NI\VeriStand Custom Device Testing Tools'
-              payloadLocation: 'Built'
