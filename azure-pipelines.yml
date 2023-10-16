@@ -23,6 +23,8 @@ stages:
           bitness: '64bit'
         - version: '2023'
           bitness: '64bit'
+        - version: '2024'
+          bitness: '64bit'
 
       buildSteps:
         - projectLocation: 'VeriStand Test Utilities.lvproj'
@@ -30,7 +32,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'SourceDistribution'
 
-      releaseVersion: '23.5.0'
+      releaseVersion: '24.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\testing_tools'
 
