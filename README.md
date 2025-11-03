@@ -5,7 +5,7 @@ The **niveristand-custom-device-testing-tools** repository provides a common set
 
 ## LabVIEW Version
 
-The source for this repository is written in [LabVIEW 2020](http://www.ni.com/en-us/shop/labview.html), but should be forward compatible.
+The source for this repository is written in [LabVIEW 2024](http://www.ni.com/en-us/shop/labview.html), but should be forward compatible.
 
 
 ## Dependencies
