@@ -82,7 +82,6 @@
 	</Item>
 	<Item Name="FindTargetInSystemDefinition.vi" Type="VI" URL="../FindTargetInSystemDefinition.vi"/>
 	<Item Name="FlattenSaveClassData.vi" Type="VI" URL="../FlattenSaveClassData.vi"/>
-	<Item Name="GatewayConfiguration.ctl" Type="VI" URL="../GatewayConfiguration.ctl"/>
 	<Item Name="GenerateOverriddenSystemDefinition.vi" Type="VI" URL="../GenerateOverriddenSystemDefinition.vi"/>
 	<Item Name="GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi" Type="VI" URL="../GenerateOverriddenSystemDefinitionFromExplicitOverrides.vi"/>
 	<Item Name="GenerateSystemDefinitionReport.vi" Type="VI" URL="../GenerateSystemDefinitionReport.vi"/>
@@ -135,7 +134,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Read Rx Values Until Equal.vi" Type="VI" URL="../Read Rx Values Until Equal.vi"/>
-	<Item Name="ReadGatewayConfigurationFile.vi" Type="VI" URL="../ReadGatewayConfigurationFile.vi"/>
 	<Item Name="ReadSystemDefinitionOverrideFile.vi" Type="VI" URL="../ReadSystemDefinitionOverrideFile.vi"/>
 	<Item Name="ReadTargetsConfigurationFile.vi" Type="VI" URL="../ReadTargetsConfigurationFile.vi"/>
 	<Item Name="ReadTDMSFileFromDataLogConfiguration.vi" Type="VI" URL="../../VeriStandTestCase/Utilities/ReadTDMSFileFromDataLogConfiguration.vi">
