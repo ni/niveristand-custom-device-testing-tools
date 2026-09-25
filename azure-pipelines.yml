@@ -14,7 +14,7 @@ resources:
       name:       ni/niveristand-custom-device-build-tools
 
 stages:
-  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+  - template: azure-templates/stages-legacy.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
         - version: '2024'
@@ -22,8 +22,6 @@ stages:
         - version: '2025'
           bitness: '64bit'
         - version: '2026'
-          bitness: '64bit'
-        - version: '2027'
           bitness: '64bit'
 
       buildSteps:
