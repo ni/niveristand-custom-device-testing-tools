@@ -2,8 +2,7 @@ trigger:
   batch: true
   branches:
     include:
-      - main
-      - release/*
+      - legacy
 
 resources:
   repositories:
@@ -30,9 +29,9 @@ stages:
           target: 'My Computer'
           buildSpec: 'SourceDistribution'
 
-      releaseVersion: '26.8.0'
+      releaseVersion: '27.0.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\testing_tools'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\legacy\testing_tools'
 
       packages:
         - controlFileName: 'control'
